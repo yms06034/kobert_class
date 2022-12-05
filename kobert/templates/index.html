@@ -1,0 +1,31 @@
+{% extends "/layout.html" %}
+
+{%- block title -%}
+Main
+{%- endblock -%}
+
+{% block head -%}
+  {{ super() }}
+  <!--Masonry JS-->
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <!--Masonry Image Loaded JS-->
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script src="https://codepen.io/juliangarnier/pen/75efae7724dbc3c055e918057fc4aca5.js"></script>
+  <!-- Style Scss -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" />
+{%- endblock %}
+
+
+{% block body %}
+<div class="index_continer">
+  <form autocomplete="off" method="POST" id="form" action="http://127.0.0.1:5000/sing">
+    <input class="sing-input" type="text" id="msg" name="input" placeholder="원하는 노래 제목을 입력해주세요"/>
+    <button class="sing-btn" type="submit" id="btn">입력</button>
+  </form>
+</div>  
+{% endblock %}
+
+{% block footer %}
+  <!--UI 관련 style JS-->
+  <script src="{{ url_for('static', filename='js/app.js') }}" charset="utf-8"></script>
+{% endblock %}

@@ -1,0 +1,167 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, menu, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+	display: block;
+}
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+    display: none;
+}
+body {
+	line-height: 1;
+  /* width: 1060px; */
+  /* text-align: center; */
+  background-color: #343a40;
+}
+menu, ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+button{
+  background: inherit ; 
+  border:none; 
+  box-shadow:none; 
+  border-radius:0; 
+  padding:0; 
+  overflow:visible; 
+  cursor:pointer
+}
+
+a, a:active, a:hover, a:link, a:visited {
+  text-decoration: none;
+  color: var(--black);
+}
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --primary: #51abf3;
+  --secondary: #33b893;
+  --warning: #ffbf00;
+  --error: #fa5b4a;
+  --gray-50: #f8f9fa;
+  --gray-60: #f5f6f7;
+  --gray-80: #f1f3f5;
+  --gray-100: #e9ecef;
+  --gray-200: #dee2e6;
+  --gray-300: #ced4da;
+  --gray-400: #adb5bd;
+  --gray-500: #848c94;
+  --gray-600: #666d75;
+  --gray-700: #495056;
+  --gray-800: #343a40;
+  --gray-900: #212529;
+  --blue-50: #f5fbff;
+  --blue-80: #e7f4fd;
+  --blue-100: #cbe7fd;
+  --blue-200: #a7d4f9;
+  --blue-300: #79bef5;
+  --blue-400: #51abf3;
+  --blue-500: #2b96ed;
+  --blue-600: #1583db;
+  --blue-700: #0a70c2;
+  --blue-800: #025ba5;
+  --blue-900: #01457d;
+  --green-50: #e6f8f3;
+  --green-80: #d7f6ee;
+  --green-100: #94e7d1;
+  --green-200: #71d2b8;
+  --green-300: #58caab;
+  --green-400: #33b893;
+  --green-500: #27ab86;
+  --green-600: #1c9674;
+  --green-700: #137b5e;
+  --green-800: #10634c;
+  --green-900: #0a4534;
+  --yellow-50: #fff8e1;
+  --yellow-80: #fff2c6;
+  --yellow-100: #ffe182;
+  --yellow-200: #ffd74e;
+  --yellow-300: #ffc929;
+  --yellow-400: #ffbf00;
+  --yellow-500: #ffad01;
+  --yellow-600: #ff9a00;
+  --yellow-700: #f78000;
+  --yellow-800: #db5600;
+  --primary: #F3B66D;
+}
+
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+} */
+
+.animation-wrapper {
+  width: 50%;
+  padding-bottom: 50%;
+}
+
+.sphere-animation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 580px;
+  height: 580px;
+  margin: -290px 0 0 -290px;
+}
+
+.sphere path {
+  fill: url(#sphereGradient);
+  stroke-width: 1px;
+  stroke: #fff;
+  backface-visibility: hidden;
+}
+
+@media (min-width: 500px) {
+  .sphere path {
+    stroke-width: .4px;
+  }
+}
