@@ -1,18 +1,16 @@
 # kobert music visualization
 
 https://koreascience.kr/article/JAKO202031458603832.pdf
-# 2021-Probono Project
-# 노약자를 위한 공개용 STT API를 이용한 인공지능 보이스피싱 방지 시스템 👵👴
-# AI voice phishing prevention system using STT API for the elderly and the weak
-#### Project nickname : 피싱빠슝
-#### Project execution period : 2021.04.30~2021.12
-#### Project Hosting : [한이음](https://www.hanium.or.kr/portal/index.do)
-#### GIT LAB URL : [GIT LAB](https://lab.hanium.or.kr/21_PF020/21_pf020)
------------------------
-## Description
-피싱빠슝은 보이스피싱 취약계층을 위한 보이스피싱 경고 시스템으로, 유선 전화나 인터넷 전화에서의 통화내용을 실시간으로 분석하고, 보이스피싱일 경우 LED로 경고한다.
 
-스마트폰 분야에는 이미 AI로 통화내용을 분석해 보이스피싱을 잡아내는 앱이 출시되어 사용되고있다. 그러나 인터넷 전화나 유선전화에는 보이스피싱을 예방하기 위한 하드웨어와 소프트웨어가 없는 실정이다. 따라서 대화 내용을 실시간으로 분석해 보이스피싱 여부를 가려내기 위한 시스템 개발이 필요하며, 특히나 보이스피싱 취약계층을 위해 개발되어야 한다.
+# Development of the Artwork using Music Visualization based on Sentiment Analysis of Lyrics
+## Description
+본 프로젝트는 사용자가 원하는 노래 가사를 크롤링을 해온 후 NLP Modal에 인식 시켜 음악 가사의 감성분석을 해주는 프로젝트 입니다.
+
+NLP 관련 프로젝트를 찾고 있을 때 김혜란 박사님의 논문을 보고 진행하게 되었다.
+논문을 보면 이러한 연구를 한 계기를 '감정표현에 어려움을 겪는 발달 장애인들의 창작활동과 심리분석 및 의사소통을 용이하게 해주는 예술창작 및 교육 플랫폼으로 확장되기를 기대한다.'
+라고 적혀 있다.
+
+친척 중에도 청각 장애인분이 계신데 진동을 통해 음악을 들으신다. 거기에 더불어 다이나믹한 시각적 표현까지 더해지면 더욱 풍부한 음악을 느낄 수 있지 않을까 싶어서 개발하게 되었다.
 
 ![4](https://user-images.githubusercontent.com/78933101/135657969-f8fc5a76-8936-4134-9654-5ed6ee7e804b.png)
 서비스 흐름도
