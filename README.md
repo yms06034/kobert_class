@@ -1,8 +1,5 @@
 
 # kobert music visualization
-![image](https://user-images.githubusercontent.com/98085184/230533799-512495e0-743f-4eef-9ea0-de19c9038403.png)
-![image](https://user-images.githubusercontent.com/98085184/230533920-fe009a46-70e1-496d-bea3-bd08ca33d4ca.png)
-
 Development of the Artwork using Music Visualization based on Sentiment Analysis of Lyrics
 
 ## Description
@@ -20,6 +17,12 @@ NLP 관련 프로젝트를 찾고 있을 때 김혜란 박사님의 논문을 �
 ## Project INFO
 ![4](https://user-images.githubusercontent.com/98085184/230531609-01fa48ca-22c6-434c-8dd7-a81b661a9b6c.png)
 
+사용자가 입력한 노래를 가사만 크롤링 해와서 진행 이후 총 6개의 class를 색깔로 구분
+![image](https://user-images.githubusercontent.com/98085184/230533799-512495e0-743f-4eef-9ea0-de19c9038403.png)
+
+그 후 JS로 만든 공 구체로 보내 색으로 표현해준다.
+![image](https://user-images.githubusercontent.com/98085184/230533920-fe009a46-70e1-496d-bea3-bd08ca33d4ca.png)
+
 ### - PIPELINE
 ![5](https://user-images.githubusercontent.com/98085184/230531750-a0d2d303-2667-45be-bfbd-ad5892873deb.png)
 
@@ -34,42 +37,20 @@ NLP 관련 프로젝트를 찾고 있을 때 김혜란 박사님의 논문을 �
 > 
 > pip install -r requirements.txt
 >
-> import numpy as np
->
-> import pandas as pd
->
-> from tensorflow import keras
-> 
-> from tensorflow.keras.preprocessing.text import Tokenizer
-> 
-> from tensorflow.keras.preprocessing.sequence import pad_sequences
-> 
-> from sklearn.model_selection import train_test_split
+> npm i
 
 
 ## Files
-`wordnet.pickle` Word Dictionary
+`models/bertdataset.py` Kobert data
 
-`ETRI_STT.py` STT ETRI Open API
+`models/classifier.py` Kobert classifier
 
-`STTpreprocessing.py` Speech to Text & Preprocessing
+`models/predict.py` Kobert predict
 
-`VOICETEST1.wav` Voice file
-
-`VOICETEST2.wav` Voice file
-
-`VOICETEST3.wav` Voice file
-
-`model.py` RNN Model ML Engine
-
-`yesvp.txt` voice phishing  txt file
-
-`notvp.txt` not phishing txt file
-
-`stop_words_new` stop words txt file
+`routes/sing_route.py` Web Page of Predict Value & Crawling
 
 `main.py` Main 
 
 
-## Usage 
-`main.py`
+## Thesis Link
+https://koreascience.kr/article/JAKO202031458603832.pdf
