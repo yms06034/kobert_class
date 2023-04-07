@@ -11,7 +11,7 @@ NLP 관련 프로젝트를 찾고 있을 때 김혜란 박사님의 논문을 �
 친척 중에도 청각 장애인분이 계신데 진동을 통해 음악을 들으신다. 
 거기에 더불어 다이나믹한 시각적 표현까지 더해지면 더욱 **풍부한 음악**을 느낄 수 있지 않을까 싶어서 개발하게 되었다.
 
-![6](https://user-images.githubusercontent.com/98085184/230531876-df7879e6-9231-40ad-b682-4b5146f54a6d.png)
+![6](https://user-images.githubusercontent.com/98085184/230531876-df7879e6-9231-40ad-b682-4b5146f54a6d.png) \
 [서비스 흐름도]
 
 ## Project INFO
