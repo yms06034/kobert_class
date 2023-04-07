@@ -1,5 +1,8 @@
 
 # kobert music visualization
+![image](https://user-images.githubusercontent.com/98085184/230533799-512495e0-743f-4eef-9ea0-de19c9038403.png)
+![image](https://user-images.githubusercontent.com/98085184/230533920-fe009a46-70e1-496d-bea3-bd08ca33d4ca.png)
+
 Development of the Artwork using Music Visualization based on Sentiment Analysis of Lyrics
 
 ## Description
