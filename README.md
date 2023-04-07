@@ -49,8 +49,13 @@ NLP 관련 프로젝트를 찾고 있을 때 김혜란 박사님의 논문을 �
 
 `routes/sing_route.py` Web Page of Predict Value & Crawling
 
-`main.py` Main 
+
+## RETROSPECTIVE
+##### 이전  회사에서 DA 진행을 할 때는 sklearn으로 ML만 진행 하였는데 이번 프로젝트를 통해 Deep learning을 조금이 나마 알게 되었다.
+##### 챗봇이 아닌 Classifiter를 사용할 계획이라 Bert를 사용해서 진행했다.
+##### Bert 논문을 보면서 모델 구조부터 천천히 익히면서 공부하였는데 확실한건 CNN보다 NLP 에 더 잘 맞는다는 것 이였다.
 
 
 ## Thesis Link
 https://koreascience.kr/article/JAKO202031458603832.pdf
+
